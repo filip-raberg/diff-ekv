@@ -17,8 +17,8 @@ Startvilkoren
 \$$x(0) = 2.0 \quad \text{och} \quad v(0) = 0.0$$
 
 ## Förklaring av variabler
-m = Bilens vikt i kg. En högre massa gör att grafen svänger långsammare (tröghet).
-\k = Styvhet av fjädern. Ju högre värde desto mer styv är fjädern och vill trycka tillbaks bilen till original-läget.
+m = Bilens vikt i kg. En högre massa gör att grafen svänger långsammare (tröghet). \
+k = Styvhet av fjädern. Ju högre värde desto mer styv är fjädern och vill trycka tillbaks bilen till original-läget.
 \c = Bestämmer hur mycket stötdämparen bromsar rörelsen. Lågt värde innebär att bilen kommer att gunga mer medans ett högre värde stannar gungandet snabbt.
 \t = Aktuell tidpunkt
 \x = Hur långt från ursprung som som bilen befinner sig just nu.
