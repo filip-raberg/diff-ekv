@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 
 # 1. Definiera systemets parametrar
-m = 1000.0  # Massa (kg)
+m = 5000.0  # Massa (kg)
 k = 30000.0 # Fjäderkonstant (N/m)
-c = 4000.0  # Dämpningskonstant (Ns/m) Tryck på denna för att ändra dämpning!
+c = 4000.0  # Dämpningskonstant (Ns/m)
 
 # 2. Definiera differentialekvationen som ett system av första ordningen
 def fjaderrorsle(t, y):
@@ -17,9 +17,9 @@ def fjaderrorsle(t, y):
 # 3. Startvillkor (Bilen kör över ett gupp och flyttas 0.2 meter uppåt, hastighet 0)
 y0 = [2.0, 0.0]
 
-# Tidsintervall för simuleringen (0 till 5 sekunder)
-t_span = (0, 5)
-t_eval = np.linspace(0, 5, 500)
+# Tidsintervall för simuleringen (0 till 10 sekunder)
+t_span = (0, 10)
+t_eval = np.linspace(0, 10, 1000) # 1000 tidpunkter för att få en jämn graf
 
 # 4. Lös ekvationen numeriskt
 sol = solve_ivp(fjaderrorsle, t_span, y0, t_eval=t_eval)

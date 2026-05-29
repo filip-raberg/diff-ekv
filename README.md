@@ -33,4 +33,4 @@ sol = Lösningen av hela funktionen. Innehåller all data för att rita grafen. 
     sol.y = Alla positionsvärden för y-axeln. \
 
 ## Anvädning av AI
-Jag har använt AI för delar av min kod som t.ex användning av olika bilbiotek jag inte har tidigare erfarenhet av och uppritningen av funktionerna. Detta lät mig fokusera mer på den matematiska delen av projektet.
+Jag har använt AI för delar av min kod som t.ex användning av olika bilbiotek jag inte har tidigare erfarenhet av och uppritningen av funktionerna. Detta lät mig fokusera mer på den matematiska delen av projektet. Har även använt AI för att feltesta och kontrollera funktioner i koden för att säkerställa funktionalitet.
